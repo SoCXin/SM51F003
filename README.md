@@ -1,29 +1,40 @@
-﻿# [NRF51822](https://github.com/sochub/NRF51822) 
+﻿# [nRF51822](https://github.com/sochub/nRF51822) 
 
 [![sites](SoC/SoC.png)](http://www.qitas.cn) 
 
+#### 父级：[Nordic](https://github.com/sochub/Nordic) 
+
 #### 归属：[cortex M0](https://github.com/sochub/CM0)
 
-## [描述](https://github.com/sochub/NRF51822/wiki) 
+### [nRF51822简介](https://github.com/sochub/nRF51822/wiki)
 
-[NRF51822](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822) 是广泛使用的BLE SoC，拥有较低的BLE通信实现成本
+[NRF51822](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822) 是普及度非常高的BLE SoC
 
-## [组成](SoC/) 
+Cortex™ M0 + 256kB(/128kB) flash + 16kB RAM
 
-#### [文档资料](docs/)
-
-参考设计和数据手册
-
-#### [项目文件](project/)
-
-包括各种开发资源和工程
+[![sites](SoC/nRF51822.png)](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822) 
 
 
-##### [相似产品](https://github.com/sochub/CC2541)
+### [收录资源](https://github.com/sochub/nRF51822)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [demo工程](demo/)
+
+官方资源下载 [SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK)
+
+#### [硬件设计资源](https://github.com/sochub/nRF51822)
+
+封装：QFN48 (QFAC) 
+
+[![sites](docs/nRF51822.png)](https://github.com/sochub/nRF51822)  
+
+### [选型建议](https://github.com/sochub/nRF51822)
+
+[nRF51822](https://github.com/sochub/nRF51822)市场竞争对手为TI的[CC2540](https://github.com/sochub/CC2540)
+
+对于片上资源升级替换方案，或则需要支持Zigbee等更多无线协议可选[nRF52832](https://github.com/sochub/nRF52832)或[CC2640](https://github.com/sochub/CC2640)，当然新入局的国产WCH的[CH578](https://github.com/sochub/CH578)也可以考虑下。
+
+##  [SoC资源平台](http://www.qitas.cn)  
 
 
----
-
-###  [SoC开发平台](http://www.qitas.cn)   
-
-###  qitas@qitas.cn

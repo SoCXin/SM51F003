@@ -1,3 +1,0 @@
-#!/bin/sh
-
-rm a.out a.hex *.o 2>/dev/null
