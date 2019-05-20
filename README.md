@@ -39,5 +39,3 @@ Cortex™ M0 + 256kB(/128kB) flash + 16kB RAM
 对于片上资源升级和BLE 5.0升级替换，可选[nRF52832](https://github.com/sochub/nRF52832)或[CC2640](https://github.com/sochub/CC2640)，当然新入局的国产WCH的[CH578](https://github.com/sochub/CH578)也可以考虑下。
 
 ##  [SoC资源平台](http://www.qitas.cn)  
-
-
