@@ -29,11 +29,14 @@ Cortex™ M0 + 256kB(/128kB) flash + 16kB RAM
 
 [![sites](docs/nRF51822.png)](https://github.com/sochub/nRF51822)  
 
+* [Eagle资源](src/Eagle)
+* [kicad资源](src/kicad)
+
 ### [选型建议](https://github.com/sochub/nRF51822)
 
-[nRF51822](https://github.com/sochub/nRF51822)市场竞争对手为TI的[CC2540](https://github.com/sochub/CC2540)
+[nRF51822](https://github.com/sochub/nRF51822)市场竞争对手为TI的[CC2540](https://github.com/sochub/CC2540)，都是同代产品支持BLE 4.0，后者基于8051内核。
 
-对于片上资源升级替换方案，或则需要支持Zigbee等更多无线协议可选[nRF52832](https://github.com/sochub/nRF52832)或[CC2640](https://github.com/sochub/CC2640)，当然新入局的国产WCH的[CH578](https://github.com/sochub/CH578)也可以考虑下。
+对于片上资源升级和BLE 5.0升级替换，可选[nRF52832](https://github.com/sochub/nRF52832)或[CC2640](https://github.com/sochub/CC2640)，当然新入局的国产WCH的[CH578](https://github.com/sochub/CH578)也可以考虑下。
 
 ##  [SoC资源平台](http://www.qitas.cn)  
 
