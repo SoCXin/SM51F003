@@ -1,41 +1,32 @@
-﻿# [nRF51822](https://github.com/sochub/nRF51822) 
+﻿# [SM51F003](https://github.com/SoCXin/SM51F003)
 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### 父级：[Nordic](https://github.com/sochub/Nordic) 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[sinomicon](http://www.sinomicon.cn/)
+#### [Core](https://github.com/SoCXin/8051)：[8051](https://github.com/SoCXin/8051)
+#### [Level](https://github.com/SoCXin/Level)：16MHz
 
-#### 归属：[cortex M0](https://github.com/sochub/CM0)
+[SM51F003](https://github.com/SoCXin/SM51F003) 是一颗1T 8051单片机，与STM8S003F3P6管脚完全pin to pin兼容，资源丰富，开发简单，可以完美替代STM8S003F3P6。
 
-### [nRF51822简介](https://github.com/sochub/nRF51822/wiki)
+* 8K字节MAIN FLASH程序存储器，支持IAP（应用中自编程）功能（IAP操作时CPU暂停运行）
+* 512字节DATA FLASH数据存储器，支持IAP（应用中自编程）功能（IAP操作时CPU暂停运行）
+* 核内256字节SRAM，核外768字节SRAM
 
-[NRF51822](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822) 是普及度非常高的BLE SoC
+[![sites](docs/SM51F003.png)](http://www.lgtic.com/SM51F003a/)
 
-Cortex™ M0 + 256kB(/128kB) flash + 16kB RAM
+#### 关键特性
 
-[![sites](SoC/nRF51822.png)](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF51822) 
+*
 
-
-### [收录资源](https://github.com/sochub/nRF51822)
+### [资源收录](https://github.com/SoCXin/SM51F003)
 
 * [参考文档](docs/)
 * [参考资源](src/)
-* [demo工程](demo/)
+* [参考工程](project/)
 
-官方资源下载 [SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK)
+### [选型建议](https://github.com/SoCXin)
 
-#### [硬件设计资源](https://github.com/sochub/nRF51822)
+[SM51F003](https://github.com/SoCXin/SM51F003)
 
-封装：QFN48 (QFAC) 
 
-[![sites](docs/nRF51822.png)](https://github.com/sochub/nRF51822)  
-
-* [Eagle资源](src/Eagle)
-* [kicad资源](src/kicad)
-
-### [选型建议](https://github.com/sochub/nRF51822)
-
-[nRF51822](https://github.com/sochub/nRF51822)市场竞争对手为TI的[CC2540](https://github.com/sochub/CC2540)，都是同代产品支持BLE 4.0，后者基于8051内核。
-
-对于片上资源升级和BLE 5.0升级替换，可选[nRF52832](https://github.com/sochub/nRF52832)或[CC2640](https://github.com/sochub/CC2640)，当然新入局的国产WCH的[CH578](https://github.com/sochub/CH578)也可以考虑下。
-
-##  [SoC资源平台](http://www.qitas.cn)  
+###  [www.SoC.xin(芯)](http://www.SoC.Xin)
